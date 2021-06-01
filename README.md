@@ -15,13 +15,13 @@ Automatically connect "correct components" in Unity
 
 - Component Connect
 
-Just add [ComponentConnector] attribute to your public field.
+Just add [ComponentConnect] attribute to your public field.
 ```cs
 // Match with field name
-[ComponentConnector] public GameObject someObject;
+[ComponentConnect] public GameObject someObject;
 
 // Match with "AwesomeObj"
-[ComponentConnector("AwesomeObj")] public GameObject awesomeObject;
+[ComponentConnect("AwesomeObj")] public GameObject awesomeObject;
 ```
 
 - Get Component
